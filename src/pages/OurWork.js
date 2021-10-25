@@ -7,7 +7,7 @@ import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
 // Animations
 import { motion } from 'framer-motion';
-import { pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer, swoopAdoop } from '../animation';
+import { pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer } from '../animation';
 import { useScroll } from "../components/useScroll";
 import ScrollTop from "../components/scrollTop";
 

@@ -12,7 +12,7 @@ import { About, Description, Image} from '../styles';
 import styled from "styled-components";
 //Test
 
-import { fade, scrollReveal} from "../animation";
+import { scrollReveal} from "../animation";
 import { useScroll } from "./useScroll";
 
 
