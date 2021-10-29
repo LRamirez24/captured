@@ -2,7 +2,7 @@ import React from "react";
 // import icons
 
 import clock from '../img/clock.svg';
-import diaphragm from '../img/diaphragm.svg';
+import bulb2 from '../img/bulb2.svg';
 import money from '../img/money.svg';
 import teamwork from '../img/teamwork.svg';
 import home2 from '../img/home2.png';
@@ -30,28 +30,28 @@ const ServicesSection = () => {
                             <img src={clock} alt="clock" />
                             <h3>Efficient</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Fast turnarounds guaranteed.</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="teamwork" />
                             <h3>Teamwork</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Our team makes your dreams a reality.</p>
                     </Card>
                     <Card>
                         <div className="icon">
-                            <img src={diaphragm} alt="diaphragm" />
-                            <h3>Diaphragm</h3>
+                            <img src={bulb2} alt="diaphragm" />
+                            <h3>Creative</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Contact us with ideas.</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={money} alt="money" />
                             <h3>Affordable</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>We offer some of the best prices.</p>
                     </Card>
                 </Cards>
             </Description>

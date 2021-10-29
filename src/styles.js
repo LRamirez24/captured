@@ -23,7 +23,7 @@ export const Description = styled.div`
     padding-right: 5rem;
     z-index: 2;
     h2{
-        font-weight: lighter;
+        font-weight: bolder;
     }
     @media (max-width: 1300px) {
      padding: 0;

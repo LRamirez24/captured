@@ -17,8 +17,8 @@ const FaqSection = () => {
            
                 
                 <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti?</p>
+                    <p>Contact us through email lrxd2025@gmail.com</p>
+                    <p>Signup for the weekly newsletter for deals.</p>
                 </div>
                 
            
@@ -28,8 +28,10 @@ const FaqSection = () => {
            
                
                 <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti?</p>
+                    <p>Monday-Friday</p>
+                    <p>
+We are available for meetings every week.
+</p>
                 </div>
                
             
@@ -39,8 +41,8 @@ const FaqSection = () => {
            
                
                 <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti?</p>
+                    <p>We take debit and credit cards.</p>
+                    <p>Have just started accepting crypto.</p>
                 </div>
               
             
@@ -50,8 +52,8 @@ const FaqSection = () => {
             
              
                 <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti?</p>
+                    <p>We offer high-quality video shoots and set designs.</p>
+                    <p>Contact us to work on a project together or if you have any questions.</p>
                 </div>
               
            
@@ -69,7 +71,7 @@ const Faq = styled(About)`
     }
     h2{
         padding-bottom: 2rem;
-        font-weight: lighter;
+        font-weight: bolder;
     }
     .faq-line{
         background: #cccccc;
