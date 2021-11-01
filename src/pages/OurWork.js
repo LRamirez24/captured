@@ -2,9 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 //images
-import athlete from '../img/athlete-small.png';
-import theracer from '../img/theracer-small.png';
-import goodtimes from '../img/goodtimes-small.png';
+
+import party from '../img/party.jpg';
+import champ from '../img/champ.jpg';
+import boxing2 from '../img/boxing2.jpg';
 // Animations
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer } from '../animation';
@@ -31,7 +32,7 @@ const OurWork = () => {
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/the-athlete">
                 <Hide>
-                <motion.img variants={photoAnim} src={athlete} alt="athlete" />
+                <motion.img variants={photoAnim} src={boxing2} alt="athlete" />
                 </Hide>
                 </Link>
             </Movie>
@@ -39,14 +40,14 @@ const OurWork = () => {
                 <h2>The Racer</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/the-racer">
-                <img src={theracer} alt="racer" />
+                <img src={champ} alt="racer" />
                 </Link>
             </Movie>
             <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
                 <h2>Good Times</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/good-times">
-                <img src={goodtimes} alt="goodtimes" />
+                <img src={party} alt="goodtimes" />
                 </Link>
             </Movie>
             <ScrollTop />

@@ -1,79 +1,81 @@
 //Import Images
-import athlete from "./img/athlete-small.png";
-import goodtimes from "./img/goodtimes-small.png";
-import theracer from "./img/theracer-small.png";
-import athlete2 from "./img/athlete2.png";
-import goodtimes2 from "./img/good-times2.jpg";
-import theracer2 from "./img/the-racer2.jpg";
+
+
+import party from "./img/party.jpg";
+import champ from "./img/champ.jpg";
+import dirt from "./img/dirt.jpg";
+import boxing2 from "./img/boxing2.jpg";
+import fight from "./img/fight.jpg";
+import lady from "./img/lady.jpg";
 
 export const MovieState = () => {
   return [
     {
       title: "The Athlete",
-      mainImg: athlete,
-      secondaryImg: athlete2,
+      mainImg: boxing2,
+      secondaryImg: fight,
       url: "/work/the-athlete",
       awards: [
         {
           title: "Truly A masterpiece",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“When love and skill work together, expect a masterpiece.”",
         },
         {
           title: "Fresh look on a brutal sport.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Rhythm Is Everything in Boxing...”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "It’s okay to lose.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“The first step towards true enlightenment is to lighten up on yourself.”",
         },
       ],
     },
     {
       title: "Good Times",
-      mainImg: goodtimes,
+      mainImg: party,
       url: "/work/good-times",
-      secondaryImg: goodtimes2,
+      secondaryImg: lady,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Capture the moment",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“True love is selfless. It is prepared to sacrifice.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "New Experiences",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“‎The day you become old is the day you're not looking for new experiences anymore.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "It time to feel free",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Freedom is the oxygen of the soul.”",
         },
       ],
     },
     {
       title: "The Racer",
-      mainImg: theracer,
+      mainImg: champ,
       url: "/work/the-racer",
-      secondaryImg: theracer2,
+      secondaryImg: dirt,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Racing Like Never Before",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Once you’ve raced, you never forget it…and you never get over it.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Fresh look at Motorsports.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Auto racing, bull fighting, and mountain climbing are the only real sports… all the others are games.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Speed in Motion",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“If you’re in control, you’re not going fast enough.”",
         },
       ],
     },

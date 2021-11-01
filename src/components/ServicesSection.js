@@ -5,7 +5,7 @@ import clock from '../img/clock.svg';
 import bulb2 from '../img/bulb2.svg';
 import money from '../img/money.svg';
 import teamwork from '../img/teamwork.svg';
-import home2 from '../img/home2.png';
+import home2 from '../img/photoshoot.png';
 
 //Styles
 import { About, Description, Image} from '../styles';
