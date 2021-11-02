@@ -42,7 +42,7 @@ export const MovieState = () => {
         {
           title: "Capture the moment",
           description:
-            "“True love is selfless. It is prepared to sacrifice.”",
+            "You only live once, but if you do it right, once is enough.”",
         },
         {
           title: "New Experiences",
